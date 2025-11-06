@@ -9141,8 +9141,8 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "P29/GND/P18"
-		(at 152.4 116.967 -0)
+	(gr_text "P18/GND/P29"
+		(at 152.4 116.967 0)
 		(layer "B.SilkS")
 		(uuid "364f3987-24e7-453d-bbdc-9f50480cb2ec")
 		(effects

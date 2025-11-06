@@ -1,4 +1,4 @@
-# 29F160 to UV EPROM T48 Programming Adapter
+# TSOP NOR Flash Programming Adapter for T48
 
 This is an untested programming adapter for the T48 for programming already-soldered 29F160 chips on my <a href="https://github.com/MouseBiteLabs/ROM-Adapter-Boards/tree/main/29F160%20to%20UV%20EPROM">29F160 to UV EPROM Adapter board.</a> This *should* make it easy to reprogram the one or two flash chips on the adapters without having to desolder anything. I have not tested this yet, so consider this *experimental*. I will, of course, update the repo accordingly if my testing proves successful.
 

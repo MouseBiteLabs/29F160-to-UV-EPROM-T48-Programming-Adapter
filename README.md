@@ -2,9 +2,9 @@
 
 This is an untested programming adapter for the T48 for programming already-soldered 29F160 chips on my <a href="https://github.com/MouseBiteLabs/ROM-Adapter-Boards/tree/main/29F160%20to%20UV%20EPROM">29F160 to UV EPROM Adapter board.</a> This *should* make it easy to reprogram the one or two flash chips on the adapters without having to desolder anything. I have not tested this yet, so consider this *experimental*. I will, of course, update the repo accordingly if my testing proves successful.
 
-![image](https://github.com/user-attachments/assets/ca0ac701-bc50-4d48-a3e9-59ffad45ed8c)
+![image](https://github.com/user-attachments/assets/019c7f6c-f0e1-4fe8-953a-088b7367ab07)
 
-![image](https://github.com/user-attachments/assets/d1044af2-7147-4e0c-a4b0-313e5c86717a)
+![image](https://github.com/user-attachments/assets/c1fbf24e-dacf-4f30-b8ac-089c2bd9d00d)
 
 All gerbers and source files can be found in this repo, as this project is fully open source. Please read all instructions associated with this board before assembling.
 
@@ -42,19 +42,19 @@ P2 accepts the v2.0 version of the 29F160 to UV EPROM adapter boards. It does no
 
 It's much easier to assemble it in this way, as you can see here:
 
-![image](https://github.com/user-attachments/assets/fd6a3e54-3b02-4288-86d2-1a5d258fa9e5)
+![image](https://github.com/user-attachments/assets/f0558491-391c-4c54-b9d2-72e6d9d8e3a1)
 
 (Alternatively, you can use only one set of these pins with female socket headers that have longer pins so that you can place it in the T48 *and* connect the XGecu Adapter.)
 
 - P2 and the /BYTE, /RP, and /WE pins (the ones located inside the P2 footprint) are populated with simple female header sockets (2.54mm).
 
-![image](https://github.com/user-attachments/assets/998994d5-bc5e-41f5-8b59-76cbe5e37b08)
+![image](https://github.com/user-attachments/assets/2a2be4cd-5413-4a09-b4c6-25a4b949b1d8)
 
 - J1 and J2 are populated with simple male header pins (2.54mm).
 
 - SW1 and SW2 are SPDT switches: https://www.digikey.com/short/zvmm2dj3
 
-![image](https://github.com/user-attachments/assets/96887395-2e98-4863-8a21-d07e988f2c7c)
+![image](https://github.com/user-attachments/assets/3d060bc3-11d5-42e9-aa61-d2ebae0cacad)
 
 - U1, R1, and C1 are discussed below. They are not required for operation, but may be harvested from the XGecu TSOP Adapter.
 
@@ -113,6 +113,7 @@ You can ignore these pins (unless I update the repo further to address them).
 
 - Disconnected pin 18 and pin 29 on P1 from VSS and connect to the proper pins on P2 instead
 - Renamed board to be more general
+- Added more pins for ZIF socket access
 
 ### v1.0 - Prototype
 
